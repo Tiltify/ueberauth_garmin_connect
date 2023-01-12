@@ -3,7 +3,7 @@ defmodule Ueberauth.Strategy.GarminConnect do
   Garmin Connect Strategy for Überauth.
   """
 
-  use Ueberauth.Strategy, uid_field: :userId
+  use Ueberauth.Strategy, uid_field: :userId, ignores_csrf_attack: true
 
   alias Ueberauth.Auth.Credentials
   alias Ueberauth.Auth.Extra
