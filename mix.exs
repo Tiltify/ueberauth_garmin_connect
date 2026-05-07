@@ -26,7 +26,7 @@ defmodule UeberauthGarminConnect.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 1.8.0"},
+      {:httpoison, "~> 2.2"},
       {:oauther, "~> 1.3.0"},
       {:ueberauth, "~> 0.6"},
       {:earmark, ">= 0.0.0", only: :dev},
